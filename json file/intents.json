@@ -4,30 +4,47 @@
          "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
          "context_set": ""
         },
+        {"tag": "Pattern:",
+         "patterns": [""What types of cakes do you have?""],
+         "responses": ["We have a wide variety of cakes, including chocolate, vanilla, red velvet, carrot, lemon, and more. Which one are you interested in?"],
+         "context_set": ""
+        },
+        {"tag": "Order placement",
+         "patterns": ["I want to order a cake"],
+         "responses": [" Great! What kind of cake would you like to order?"],
+         "context_set": ""
+        },
+        {"tag": "Cake selection",
+         "patterns": ["I want a chocolate cake"],
+         "responses": ["We have a range of delicious chocolate cakes. Would you like to hear about our options?"],
+         "context_set": ""
+        },
+        {"tag": "Customization",
+         "patterns": [" Can I customize my cake?"],
+         "responses": [" Absolutely! We offer a variety of customization options such as adding a special message, selecting a specific flavor or design.
+                       What would you like to add?"],
+         "context_set": ""
+        },
+        {"tag": "Delivery",
+         "patterns": ["Can you deliver the cake?"],
+         "responses": ["Yes, we offer delivery services. Please let me know your address and preferred delivery time."],
+         "context_set": ""
+        },
+         {"tag": "Payment",
+         "patterns": ["How can I pay for my cake?"],
+         "responses": ["We accept credit/debit card payments and also have the option for cash on delivery. What would you prefer?"],
+         "context_set": ""
+        },
+        {"tag": "Pricing",
+         "patterns": [" How much does a cake cost?"],
+         "responses": [" Our prices vary depending on the size, flavor and design of the cake. Can you please specify your requirements?"],
+         "context_set": ""
+        },
         {"tag": "goodbye",
          "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
          "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
          "context_set": ""
         },
-        {"tag": "age",
-         "patterns": ["how old", "how old is pon", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 18 years old!", "18 years young!"],
-         "context_set": ""
-        },
-        {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Pon.", "I'm Pon!", "I'm Pon aka Ponta."],
-         "context_set": ""
-        },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
-         "context_set": ""
-        },
-        {"tag": "hours",
-         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
-         "responses": ["We are open 7am-4pm Monday-Friday!"],
-         "context_set": ""
-        }
+       
    ]
 }
